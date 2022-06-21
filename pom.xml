@@ -84,25 +84,19 @@
 		
 		<!-- provided dependencies -->
 
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>javax.servlet-api</artifactId>
-			<version>3.1.0</version>
-			<scope>provided</scope>
-		</dependency>
 		
 	</dependencies>
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://100.26.133.141:8081/repository/paypal-releases/</url>
+	      <url>http://18.188.41.190:8081/repository/conro-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://54.237.76.176:8081/repository/paypal-snapshots/</url>
+	      <url>http://18.188.41.190:8081/repository/conro-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
